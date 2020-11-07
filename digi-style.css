@@ -1,6 +1,20 @@
+*{
+    font-family:iransans ;
+    font: bold;
+}
+
+
+@font-face {
+    font-family: "iransans";
+    src: url("../digiProject/Fonts/irsans.ttf") format('truetype');
+   font-style: normal ;
+   font: bold;
+    }
+  
 .header{
-    background:#ffd600;
-    width: 100%;
+    border:2px solid rgb(173, 173, 173);
+    background:#ffffff;
+    width: 98%;
     height: 130px;
     margin:0  auto;
     padding: 10px;
@@ -28,24 +42,23 @@
 .searchBox{
     display:inline;
 }
+
 .leftHeader{
     flex-grow: 2;
     text-align: left;
 }
 
-
-
 .nav li{
     display: inline;
     color: rgb(109, 109, 109);
-    font-family: system-ui;
     font-size: 15px;
     padding: 24px;
     position: relative;
     font: bold;
- }
-
-
+    left: 53px;
+   
+}
+ 
  .searchInput{
     background-color: #f0f0f1;
     border-radius: 200px;
@@ -53,14 +66,53 @@
     height: 30px;
     border: 0px;
     padding: 10px;
+    opacity: .4;
  }
 
  .loginItem{
      text-decoration: none;
      border-radius: 10px;
-     background-color: white;
-     color: darkgray;
+     background-color:#f0f0f1;
      padding: 10px;
      margin:20px;
-     
+     opacity: .4;
  }
+
+.login{
+    top: 196px;
+    width: 98%;
+    height: 200px;
+    background-color: #e8f082e0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align:center;
+    left: 13px 
+    
+}
+
+ul li:first-child{
+    color: rgb(162, 255, 0);
+}
+ul li:last-child{
+    color: darkorange;
+}
+ul li:nth-child(2){
+    color: magenta;
+}
+ul li:nth-child(3){
+    color: orangered;
+}
+ul li:nth-child(4){
+    color: rgb(217, 221, 0);
+}
+ul li:nth-child(5){
+    color: rgb(75, 168, 255);
+}
+ul:hover{
+    background-color: rgb(90, 90, 90);
+}
+
